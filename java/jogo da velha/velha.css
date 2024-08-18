@@ -1,0 +1,7 @@
+/* Estilize o tabuleiro como desejar */
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* Adicione outras propriedades de estilo conforme necessário */
+}
