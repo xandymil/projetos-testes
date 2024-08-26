@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .cnome{
+            background-color: #8470FF;
+        }
+        .csexo{ background-color: #7B68EE;}
+        .cidade{background-color: #6A5ACD;}
+        .cprofi{ background-color: 	#483D8B;}
+    </style>
+</head>
+<body>
+    <h1>exerciceos de tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofi">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissão </th>
+            
+    </tr>
+    
+        <tr>
+        <td>ana maria</td>
+        <td>f</td>
+        <td>25</td>
+        <td>jornalista</td>
+    </tr>
+    <tr>
+        <td>Lucas Oliveira</td>
+        <td>m</td>
+        <td>32</td>
+        <td>engenheiro</td>
+    </tr>
+    <tr>
+        <td>Clara Souza</td>
+        <td>f</td>
+        <td>28</td>
+        <td>designer</td>
+    </tr>
+    <tr class="destaque">
+        <td>Paulo Silva</td>
+        <td>m</td>
+        <td>41</td>
+        <td>advogado</td>
+    </tr>
+    <tr>
+        <td>Fernanda Lima</td>
+        <td>f</td>
+        <td>22</td>
+        <td>estudante</td>
+    </tr>
+    
+</table>
+</body>
+</html>
